@@ -1,7 +1,7 @@
 <?php
 class Users{
 
-    function isUserExsit($username)
+    function isUserExist($username)
     {
         require_once("db.php");
         require("config.php");

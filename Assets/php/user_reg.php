@@ -44,7 +44,7 @@
   require_once("Users.php");
   //Check if user exisit
   $t = new Users();
-  if ($t->isUserExsit($user))
+  if ($t->isUserExist($user))
   {
     notify("Error".$user,"Sorry, the username is unable to use!","../../register.php","panel-danger");
     die();
